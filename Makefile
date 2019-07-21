@@ -24,7 +24,6 @@ build: builder target aports
 		-v ${PWD}/user.abuild/:/home/packager/.abuild \
 		-v ${PWD}/aports:/work \
 		-v ${PWD}/target:/target \
-		-v ${HOME}/.gitconfig/:/home/packager/.gitconfig \
 		apk_builder:${BUILD_ID} \
 		sh
 
